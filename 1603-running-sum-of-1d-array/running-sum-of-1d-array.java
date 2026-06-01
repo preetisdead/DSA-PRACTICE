@@ -5,10 +5,7 @@ class Solution {
             int s=0;
             for(int j=0;j<=i;j++){
                 s+=nums[j];
-            }
-            ans[i]=s;
-        }
-         return ans;
-    }
-   
+            } ans[i]=s;
+        } return ans;
+    }   
 }
