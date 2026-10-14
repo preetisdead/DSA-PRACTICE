@@ -7,8 +7,8 @@ class Solution {
       long sum=0;
       int i=0,j=nums.length-1;
       while(i!=j&&i<j){
-        sum+=nums[j]*nums[j];
-        sum-=nums[i]*nums[i];
+        sum+=(long)nums[j]*nums[j];
+        sum-=(long)nums[i]*nums[i];
         i++;
         j--;
       }
